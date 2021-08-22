@@ -12,6 +12,9 @@
 # generated files
 *.g.dart
 
+# config file
+injection.config.dart
+
 # IntelliJ related
 *.iml
 *.ipr
