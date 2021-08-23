@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:toggl/presentation/layout/layout.dart';
 
 class TogglApp extends StatelessWidget {
   const TogglApp({Key? key}) : super(key: key);
@@ -6,7 +7,8 @@ class TogglApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Scaffold(),
+      debugShowCheckedModeBanner: false,
+      home: Layout(),
     );
   }
 }
